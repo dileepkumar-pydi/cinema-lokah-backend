@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cinema-lokah-backend
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: TMDB_ACCESS_TOKEN
+        sync: false

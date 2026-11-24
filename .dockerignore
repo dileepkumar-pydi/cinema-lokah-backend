@@ -1,0 +1,10 @@
+.git
+.gitignore
+.classpath
+.project
+.settings
+.idea
+.vscode
+target
+*.log
+.DS_Store
